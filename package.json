@@ -1,0 +1,24 @@
+{
+  "name": "three-digits-sum-to-zero",
+  "version": "1.0.0",
+  "description": "Determine if any 3 integers in an array sum to 0.",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "pretest": "eslint .",
+    "test": "mocha \"tests/**/*.test.js\""
+  },
+  "author": "Jonathon Mroczka",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "4.17.13"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "eslint": "5.9.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "mocha": "5.2.0",
+    "sinon": "7.1.1"
+  }
+}
