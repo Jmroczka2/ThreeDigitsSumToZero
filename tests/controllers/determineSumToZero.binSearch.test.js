@@ -1,9 +1,9 @@
 const chai = require('chai');
-const sumToZeroController = require('../../controllers/determineSumToZero.hashMap.js');
+const sumToZeroController = require('../../controllers/determineSumToZero.binSearch.js');
 
 const expect = chai.expect; // eslint-disable-line prefer-destructuring
 
-describe('determineSumToZero.hashMap.js', function () {
+describe('determineSumToZero.binSearch.js', function () {
   context('when the function \'determineSumToZero\' is called on the array [1, 2, 3, -4]', function () {
     const sumToZeroResults = sumToZeroController([1, 2, 3, -4]);
 
